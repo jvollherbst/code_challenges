@@ -2,7 +2,7 @@ function urlIfy(str) {
   var x = '';
   var y = [];
 
-  if(str.endsWith(' ')) {
+  if(str.includes(' ')) {
     str = str.split('');
     str.forEach(el => {
       if(el == ' ') {
